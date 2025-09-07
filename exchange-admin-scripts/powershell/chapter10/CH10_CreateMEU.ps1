@@ -15,11 +15,11 @@ Replace the values below with values in your organization.
 Scott Schnoll
 
 .COPYRIGHT
-# Copyright © 2025 Scott Schnoll. All Rights Reserved.
-# This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
-#
-# .SOURCE
-This script is excerpted from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll
+Copyright © 2025 Scott Schnoll. All Rights Reserved.
+This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
+
+.SOURCE
+This script is from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll (ISBN: 9798262871872)
 #>
 
 New-MailUser -Name "Ross Hiranaka" -Alias "rossh" -ExternalEmailAddress "rossh@msexchangese.com" -FirstName "Ross" -LastName "Hiranaka" -UserPrincipalName "rhiranaka@nwnetworks.com" -Password (ConvertTo-SecureString -String 'P@ssw0rd!' -AsPlainText -Force)

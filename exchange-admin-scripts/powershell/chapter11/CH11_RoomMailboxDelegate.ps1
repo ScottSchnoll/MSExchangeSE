@@ -15,11 +15,11 @@ Replace the values below with those appropriate for your organization.
 Scott Schnoll
 
 .COPYRIGHT
-# Copyright © 2025 Scott Schnoll. All Rights Reserved.
-# This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
-#
-# .SOURCE
-This script is excerpted from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll
+Copyright © 2025 Scott Schnoll. All Rights Reserved.
+This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
+
+.SOURCE
+This script is from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll (ISBN: 9798262871872)
 #>
 
 Get-Mailbox -ResultSize unlimited -Filter "(RecipientTypeDetails -eq 'RoomMailbox') -and (DisplayName -like 'Private*')" | ForEach-Object { Set-CalendarProcessing -Identity $_.PrimarySmtpAddress -AllBookInPolicy $false -AllRequestInPolicy $true -ResourceDelegates "Robert McMichael" }

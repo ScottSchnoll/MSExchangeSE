@@ -15,13 +15,12 @@ Change ApplicationGroupIdentifier to match your environment.
 Scott Schnoll
 
 .COPYRIGHT
-# Copyright © 2025 Scott Schnoll. All Rights Reserved.
-# This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
-#
-# .SOURCE
-This script is excerpted from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll
-#>
+Copyright © 2025 Scott Schnoll. All Rights Reserved.
+This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
 
+.SOURCE
+This script is from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll (ISBN: 9798262871872)
+#>
 
 $clientRoleIdentifier = @("f8d98a96-0999-43f5-8af3-69971c7bb423","d3590ed6-52b3-4102-aeff-aad2292ab01c")
 (Get-AdfsWebApiApplication -ApplicationGroupIdentifier "Outlook") | ForEach-Object {

@@ -9,7 +9,7 @@ This script checks for duplicate SMTP addresses for MEPFs.
 Displays any addresses for an MEPF that are duplicates.
 
 .NOTES
-Replace the values below with those appropriate for your organization.
+Replace <Domain> with your organization's domain.
 
 .AUTHOR
 Scott Schnoll
@@ -19,7 +19,7 @@ Copyright © 2025 Scott Schnoll. All Rights Reserved.
 This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
 
 .SOURCE
-This script is excerpted from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll
+This script is from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll (ISBN: 9798262871872)
 #>
 
 $allPFs = Get-ADObject -LDAPFilter "(&(objectClass=publicFolder)(mail=*))" -SearchBase "CN=Microsoft Exchange System Objects,DC=<Domain>,DC=com" -Properties proxyAddresses

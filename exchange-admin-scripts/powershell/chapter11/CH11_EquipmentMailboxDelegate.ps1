@@ -19,7 +19,7 @@ Copyright © 2025 Scott Schnoll. All Rights Reserved.
 This script is provided for educational purposes and may be used or modified with attribution. If you use or adapt this script, please credit the original source.
 
 .SOURCE
-This script is excerpted from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll
+This script is from the book "The Admin's Guide to Microsoft Exchange Server Subscription Edition" by Scott Schnoll (ISBN: 9798262871872)
 #>
 
 Get-Recipient -RecipientTypeDetails EquipmentMailbox | Where-Object { $_.Department -eq "Audio-Visual" } | ForEach-Object { Set-CalendarProcessing -Identity $_.Alias -AllBookInPolicy $false -AllRequestInPolicy $true -ResourceDelegates "Robert Taylor" }
