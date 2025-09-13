@@ -26,13 +26,6 @@ From PowerShell:
 cd .\powershell\chapter01\
 .\example-script.ps1
 ```
-
-From Command Prompt:
-```cmd
-cd cmd\chapter01
-example-script.cmd
-```
-
 ## Notes
 - Some scripts require elevated permissions.
 - Execution Policy may need to be adjusted for `.ps1` files:
