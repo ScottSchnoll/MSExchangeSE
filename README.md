@@ -17,8 +17,8 @@ git clone https://github.com/<user>/exchange-admin-scripts.git
 
 ## Script Organization
 - **powershell/** → Scripts for PowerShell examples
-- **cmd/** → Command-line batch files
-- **docs/** → Extended notes and script-to-chapter mapping
+- **cmd/** → Command-line files
+- **docs/** → Additional text files
 
 ## Example Usage
 From PowerShell:
