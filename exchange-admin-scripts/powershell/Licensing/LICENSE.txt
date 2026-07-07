@@ -1,0 +1,15 @@
+Copyright © 2026 Scott. All Rights Reserved.
+
+Permission is granted to any individual to download and share unmodified copies of this script for personal, non-commercial use only.
+
+The following actions are strictly prohibited:
+
+1. Creating, distributing, or using derivative works based on this script.
+2. Modifying, altering, or adapting any part of this script.
+3. Using this script, in whole or in part, for any commercial purpose.
+4. Redistributing this script in any form that suggests endorsement, affiliation, or ownership by anyone other than the copyright holder.
+5. Removing, altering, or obscuring any copyright notices or attribution contained in this script.
+
+This script is provided “as is,” without warranty of any kind, express or implied. The copyright holder shall not be liable for any damages arising from its use.
+
+By downloading or using this script, you agree to these terms.
